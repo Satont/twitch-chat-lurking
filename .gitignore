@@ -1,0 +1,10 @@
+node_modules
+dist
+dest
+package-lock.json
+token
+test.ts
+test.js
+logs
+.env*
+!!.env.example

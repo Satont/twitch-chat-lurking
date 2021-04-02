@@ -1,0 +1,33 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "dev": "nodemon",
+    "debug": "node --inspect=0.0.0.0:9229 --nolazy ./dist/main.js",
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "eslint": "npx eslint --ext .ts src",
+    "eslint:fix": "npx eslint --ext .ts --fix src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satont/typescript-template.git"
+  },
+  "author": "Satont <satontworldwide@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satont/typescript-template/issues"
+  },
+  "homepage": "https://github.com/Satont/typescript-template#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "rimraf": "^3.0.2"
+  }
+}
