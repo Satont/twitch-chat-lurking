@@ -24,10 +24,19 @@
   },
   "homepage": "https://github.com/Satont/typescript-template#readme",
   "devDependencies": {
+    "@types/express": "^4.17.11",
     "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "eslint": "^7.23.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "twitch": "^4.5.3",
+    "twitch-auth": "^4.5.3",
+    "twitch-chat-client": "^4.5.3"
   }
 }
